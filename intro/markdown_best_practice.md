@@ -1,7 +1,5 @@
 # Markdown 最佳实践
 
-## 概述
-
 本文档基于 [Google 文档风格指南](https://google.github.io/styleguide/docguide/style.html)，提供 Markdown 写作规范。
 
 ## 核心原则
