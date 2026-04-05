@@ -81,6 +81,78 @@ llm keys set openai
 alias llm='ALL_PROXY="" all_proxy="" HTTP_PROXY="" HTTPS_PROXY="" http_proxy="" https_proxy="" llm'
 ```
 
+## 常见问题
+
+### 1. `llm keys set` 输入无效
+
+**现象**：运行 `llm keys set openai` 后，输入的 Key 没有被正确保存，`keys.json` 中的值变成了 `"Enter key: "`。
+
+**原因**：终端无法控制回显（`GetPassWarning`），导致 `llm` 捕获了提示文本而非实际输入。
+
+**解决**：直接手动编辑 `keys.json` 文件：
+
+```bash
+# 找到配置文件路径
+python3 -c "from llm import user_dir; print(user_dir() / 'keys.json')"
+# 通常位于 ~/.config/io.datasette.llm/keys.json
+
+# 直接编辑，写入正确的 Key
+```
+
+`keys.json` 格式：
+```json
+{
+  "// Note": "This file stores secret API credentials. Do not share!",
+  "openai": "sk-你的真实API密钥"
+}
+```
+
+### 2. 代理导致连接失败或崩溃
+
+**现象**：运行 `llm` 时报错 `ValueError: Unknown scheme for proxy URL URL('socks://...')` 或 `Connection error`。
+
+**原因**：`llm-ollama` 插件依赖的 `ollama` Python 库在初始化时读取 `ALL_PROXY` 环境变量，但 `httpx` 不支持 `socks://` 协议。
+
+**解决**：运行 `llm` 时清除所有代理变量：
+
+```bash
+ALL_PROXY="" all_proxy="" HTTP_PROXY="" HTTPS_PROXY="" http_proxy="" https_proxy="" llm -m qwen-turbo "你好"
+```
+
+持久化方案：在 `~/.bashrc` 中添加 alias：
+
+```bash
+alias llm='ALL_PROXY="" all_proxy="" HTTP_PROXY="" HTTPS_PROXY="" http_proxy="" https_proxy="" llm'
+```
+
+### 3. 自定义模型未被识别
+
+**现象**：配置了 `extra-openai-models.yaml` 后，`llm models` 仍然看不到自定义模型。
+
+**原因**：`llm` 的 OpenAI 插件内置了模型白名单，不会自动从自定义端点拉取模型列表。
+
+**解决**：确保配置文件格式正确，每个模型需要同时指定 `model_id`、`model_name`、`api_base` 和 `api_key_name`：
+
+```yaml
+- model_id: qwen-turbo          # llm 中使用的名称
+  model_name: qwen-turbo        # 实际传给 API 的名称
+  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  api_key_name: openai          # 对应 keys.json 中的键名
+```
+
+配置完成后运行 `llm models` 验证，新模型应出现在列表中。
+
+### 4. 配置文件路径
+
+`llm` 使用两个独立的目录：
+
+| 用途 | 路径 |
+|------|------|
+| 用户数据（密钥、日志） | `~/.config/io.datasette.llm/` |
+| 模型配置 | `~/.config/io.datasette.llm/extra-openai-models.yaml` |
+
+可通过环境变量 `LLM_USER_PATH` 自定义用户目录位置。
+
 ## 基本使用
 
 ### 查看可用模型
