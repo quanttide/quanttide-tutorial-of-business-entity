@@ -1,8 +1,16 @@
 # CONTRIBUTING
 
-## 项目简介
+quanttide-tech 项目的子模块，教程模块，涵盖管理、生成式 AI、Git 等领域的实战指南。
 
-quanttide-tutorial 是量潮科技的教程模块，涵盖管理、生成式 AI、Git 等领域的实战指南。
+## 使用场景
+
+### 文档更新
+
+修改子模块内容后，推送更新并同步到主仓库。
+
+1. 子模块内提交：`git commit -m "docs: update content"`
+2. 子模块内推送：`git push`
+3. 更新主仓库引用：`git add docs/tutorial && git commit -m "chore: update tutorial submodule"`
 
 ## 提交规范
 
