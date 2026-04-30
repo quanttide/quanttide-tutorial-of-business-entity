@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## [0.0.2] - 2026-04-30
+
+### Added
+- 添加教程入口索引 (index.md)
+- 添加定义文件 (definitions.md)
+- 添加 BRD 机制设计洞见
+- 添加哲学教程
+- 添加 CONTRIBUTING 文件
+
+### Changed
+- 重构 vibe_writing 目录结构，移至 generative_ai 同级
+- 根据 GLM 评审意见重构 Vibe Writing 文档
+- 更新 CONTRIBUTING 适配主仓库
+- 移除/减少文档粗体使用，应用 docs-format 格式规范
+
+### Removed
+- 将哲学内容提取至独立仓库
+
 ## [0.0.1] - 2026-04-05
 
 ### Added
