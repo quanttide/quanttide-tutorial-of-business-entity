@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [0.1.0] - 2026-05-05
+
+### Added
+
+- ROADMAP.md 产品路线图
+- company-representative.md 法定代表人制度文档
+
+### Changed
+
+- definitions.md 从 appendix/ 移至 intro/
+
 ## [0.0.2] - 2026-04-30
 
 ### Added
