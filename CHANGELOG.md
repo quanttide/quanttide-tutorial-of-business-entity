@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## [0.2.0] - 2026-05-11
+
+### Added
+
+- myst.yml 项目配置（目录结构、作者、许可证、站点模板）
+- index.md 入口页面
+- 部署工作流：GitHub Actions 自动构建并部署 MyST 静态站点到 GitHub Pages
+- .gitignore 忽略 _build/ 构建产物
+- 写作规范章节：write/index.md《如何快速撰写高质量的工作文章？》、write/bylaw.md《如何快速撰写高质量的工作章程？》
+
+### Changed
+
+- GitHub Pages 部署命令从 `myst build --site` 修复为 `myst build --html`
+- 目录结构调整：写作章节重命名并调整顺序
+
 ## [0.1.0] - 2026-05-05
 
 ### Added
