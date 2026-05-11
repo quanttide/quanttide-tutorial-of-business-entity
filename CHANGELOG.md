@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [0.2.1] - 2026-05-11
+
+### Added
+
+- DevOps 章节：语义化版本发布规范（sematric_version.md）
+- myst.yml 目录注册 sematric_version.md
+
 ## [0.2.0] - 2026-05-11
 
 ### Added

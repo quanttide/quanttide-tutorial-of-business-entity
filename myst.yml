@@ -33,6 +33,7 @@ project:
     - title: DevOps
       children:
         - file: devops/refactor_indicator.md
+        - file: devops/sematric_version.md
     - title: 写作
       children:
         - file: write/index.md
