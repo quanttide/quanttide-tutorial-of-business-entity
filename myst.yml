@@ -24,6 +24,10 @@ project:
         - file: entrepreneurship/index.md
         - file: entrepreneurship/business.md
         - file: entrepreneurship/from_executor_to_manager.md
+    - title: 写作规范
+      children:
+        - file: write/index.md
+        - file: write/bylaw.md
     - title: 组织管理
       children:
         - file: organization/company-representative.md
