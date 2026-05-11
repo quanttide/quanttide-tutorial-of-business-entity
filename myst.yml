@@ -1,0 +1,40 @@
+version: 1
+project:
+  title: 量潮科技工作教程
+  description: 量潮科技内部工作教程，涵盖创业管理、组织制度、产品开发、DevOps 等主题
+  keywords:
+    - 量潮科技
+    - 教程
+    - 创业
+    - 管理
+    - 产品
+    - DevOps
+  authors:
+    - name: 量潮科技
+  license: CC-BY-4.0
+  exclude:
+    - CHANGELOG.md
+    - CONTRIBUTING.md
+    - ROADMAP.md
+    - README.md
+  toc:
+    - file: index.md
+    - title: 创业管理
+      children:
+        - file: entrepreneurship/index.md
+        - file: entrepreneurship/business.md
+        - file: entrepreneurship/from_executor_to_manager.md
+    - title: 组织管理
+      children:
+        - file: organization/company-representative.md
+    - title: 产品研发
+      children:
+        - file: product/brd.md
+    - title: DevOps
+      children:
+        - file: devops/refactor_indicator.md
+    - title: 附录
+      children:
+        - file: appendix/definitions.md
+site:
+  template: book-theme
