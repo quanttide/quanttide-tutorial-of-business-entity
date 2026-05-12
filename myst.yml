@@ -27,6 +27,11 @@ project:
     - title: 组织管理
       children:
         - file: organization/company-representative.md
+    - title: 量潮数据
+      children:
+        - file: qtdata/index.md
+        - file: qtdata/customer.md
+        - file: qtdata/project.md
     - title: 产品研发
       children:
         - file: product/brd.md
@@ -38,7 +43,7 @@ project:
       children:
         - file: write/index.md
         - file: write/bylaw.md
-    - title: 分享
+    - title: 开源
       children:
         - file: share/license.md
     - title: 附录
