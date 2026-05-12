@@ -38,6 +38,9 @@ project:
       children:
         - file: write/index.md
         - file: write/bylaw.md
+    - title: 分享
+      children:
+        - file: share/license.md
     - title: 附录
       children:
         - file: appendix/definitions.md
