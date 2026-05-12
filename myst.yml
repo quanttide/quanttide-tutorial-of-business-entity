@@ -32,13 +32,6 @@ project:
     - title: 组织管理
       children:
         - file: organization/company-representative.md
-    - title: 产品研发
-      children:
-        - file: product/brd.md
-    - title: DevOps
-      children:
-        - file: devops/refactor_indicator.md
-        - file: devops/sematric_version.md
     - title: 写作
       children:
         - file: write/index.md
@@ -46,6 +39,13 @@ project:
     - title: 开源
       children:
         - file: share/license.md
+    - title: 产品研发
+      children:
+        - file: product/brd.md
+    - title: DevOps
+      children:
+        - file: devops/refactor_indicator.md
+        - file: devops/sematric_version.md
     - title: 附录
       children:
         - file: appendix/definitions.md
