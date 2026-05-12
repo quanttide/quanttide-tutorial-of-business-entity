@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [0.2.2] - 2026-05-12
+
+### Added
+
+- qtdata/ 目录（customer.md, index.md, project.md）
+- 项目管理文档：协作效率、事前沟通、客户延迟应对
+
+### Changed
+
+- 完善 qtdata/index.md 量潮数据经营现状总结
+
 ## [0.2.1] - 2026-05-11
 
 ### Added
