@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## [0.3.0] - 2026-05-12
+
+### Added
+
+- AGENTS.md，记录目录排序规则（业务 → 管理类职能 → 工程类职能）
+- 开源协议选择策略（share/license.md），以叙事风格阐述 CC-BY 与 Apache 2.0 选型逻辑
+- qtdata/ 注册到 myst.yml TOC（量潮数据章节）
+
+### Changed
+
+- myst.yml TOC 重排：量潮数据移至最前，职能章节按管理→工程排序
+- share/license.md 重写为首人称叙事风格
+- 补充 BSD、LGPL 排除说明
+
 ## [0.2.2] - 2026-05-12
 
 ### Added
