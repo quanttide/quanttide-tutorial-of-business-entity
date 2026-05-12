@@ -19,6 +19,11 @@ project:
     - README.md
   toc:
     - file: index.md
+    - title: 量潮数据
+      children:
+        - file: qtdata/index.md
+        - file: qtdata/customer.md
+        - file: qtdata/project.md
     - title: 创业管理
       children:
         - file: entrepreneurship/index.md
@@ -27,11 +32,6 @@ project:
     - title: 组织管理
       children:
         - file: organization/company-representative.md
-    - title: 量潮数据
-      children:
-        - file: qtdata/index.md
-        - file: qtdata/customer.md
-        - file: qtdata/project.md
     - title: 产品研发
       children:
         - file: product/brd.md
