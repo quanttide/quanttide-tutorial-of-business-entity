@@ -1,14 +1,14 @@
 version: 1
 project:
   title: 量潮科技工作教程
-  description: 量潮科技内部工作教程，涵盖创业管理、组织制度、产品开发、DevOps 等主题
+  description: 量潮科技内部工作教程，涵盖经营入门、组织制度、产品开发、DevOps 等主题
   keywords:
     - 量潮科技
     - 教程
     - 创业
     - 管理
-    - 产品
-    - DevOps
+    - 组织
+    - 标准化
   authors:
     - name: 量潮科技
   license: CC-BY-4.0
@@ -19,11 +19,20 @@ project:
     - README.md
   toc:
     - file: index.md
+    - title: 经营入门
+      children:
+        - file: intro/index.md
+        - file: intro/business-model.md
+        - file: intro/strategy.md
+        - file: intro/management.md
     - title: 量潮数据
       children:
         - file: qtdata/index.md
         - file: qtdata/customer.md
         - file: qtdata/project.md
+    - title: 量潮课堂
+      children:
+        - file: qtclass/index.md
     - title: 创业管理
       children:
         - file: entrepreneurship/index.md
@@ -32,6 +41,18 @@ project:
     - title: 组织管理
       children:
         - file: organization/company-representative.md
+        - file: organization/mechanism-design.md
+        - file: organization/culture.md
+    - title: 沟通管理
+      children:
+        - file: connect/external-bypass.md
+    - title: 标准化
+      children:
+        - file: stdn/index.md
+        - file: stdn/bylaw.md
+    - title: 财务税务
+      children:
+        - file: finance/tax/index.md
     - title: 写作
       children:
         - file: write/index.md
