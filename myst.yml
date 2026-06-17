@@ -33,6 +33,8 @@ project:
     - title: 量潮课堂
       children:
         - file: qtclass/index.md
+        - file: qtclass/strategy.md
+        - file: qtclass/zstu.md
     - title: 创业管理
       children:
         - file: entrepreneurship/index.md
