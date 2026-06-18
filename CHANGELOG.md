@@ -1,6 +1,14 @@
 # CHANGELOG
 
-## [0.4.0] - 2026-05-19
+## [Unreleased]
+
+## [0.4.1] - 2026-06-18
+
+### 新增
+
+- media/meme.md 模因构建教程（从手册移出）
+- write/engineering.md 叙事工程教程（核心理念和验收标准）
+- strategy/playbook.md 战略管理教程（从手册移出）
 
 ### Added
 
