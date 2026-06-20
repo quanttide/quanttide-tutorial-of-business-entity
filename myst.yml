@@ -85,6 +85,9 @@ project:
       children:
         - file: devops/refactor_indicator.md
         - file: devops/sematric_version.md
+    - title: 智能体工程
+      children:
+        - file: agent/skill.md
     - title: 附录
       children:
         - file: appendix/definitions.md
