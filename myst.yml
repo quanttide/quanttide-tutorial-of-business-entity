@@ -54,8 +54,7 @@ project:
     - title: 人力资源
       children:
         - file: human/hr-index.md
-        - file: human/market-assessment-method.md
-        - file: human/tech-assessment-method.md
+        - file: human/assessment.md
         - file: human/resignation.md
     - title: 媒体运营
       children:
