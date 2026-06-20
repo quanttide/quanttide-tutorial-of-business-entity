@@ -25,6 +25,8 @@ project:
         - file: intro/business-model.md
         - file: intro/strategy.md
         - file: intro/management.md
+        - file: business/quotation.md
+        - file: strategy/playbook.md
     - title: 量潮数据
       children:
         - file: qtdata/index.md
@@ -36,6 +38,9 @@ project:
         - file: qtclass/sales.md
         - file: qtclass/strategy.md
         - file: qtclass/zstu.md
+    - title: 量潮咨询
+      children:
+        - file: qtconsult/index.md
     - title: 创业管理
       children:
         - file: entrepreneurship/index.md
@@ -46,6 +51,15 @@ project:
         - file: organization/company-representative.md
         - file: organization/mechanism-design.md
         - file: organization/culture.md
+    - title: 人力资源
+      children:
+        - file: hr/index.md
+        - file: hr/market-assessment-method.md
+        - file: hr/tech-assessment-method.md
+        - file: human/resignation.md
+    - title: 媒体运营
+      children:
+        - file: media/wechat.md
     - title: 沟通管理
       children:
         - file: connect/external-bypass.md
@@ -60,6 +74,7 @@ project:
       children:
         - file: write/index.md
         - file: write/bylaw.md
+        - file: write/engineering.md
     - title: 开源
       children:
         - file: share/license.md
@@ -73,5 +88,6 @@ project:
     - title: 附录
       children:
         - file: appendix/definitions.md
+        - file: asset/batch-maintain.md
 site:
   template: book-theme
