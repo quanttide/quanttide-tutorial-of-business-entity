@@ -53,7 +53,7 @@ project:
         - file: organization/culture.md
     - title: 人力资源
       children:
-        - file: human/hr-index.md
+        - file: human/index.md
         - file: human/assessment.md
         - file: human/resignation.md
     - title: 媒体运营
