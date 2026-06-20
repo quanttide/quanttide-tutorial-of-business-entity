@@ -95,3 +95,5 @@ project:
         - file: asset/batch-maintain.md
 site:
   template: book-theme
+  options:
+    folders: true
