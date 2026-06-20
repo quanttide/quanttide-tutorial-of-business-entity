@@ -35,6 +35,7 @@ project:
     - title: 量潮课堂
       children:
         - file: qtclass/index.md
+        - file: qtclass/org.md
         - file: qtclass/sales.md
         - file: qtclass/strategy.md
         - file: qtclass/zstu.md
