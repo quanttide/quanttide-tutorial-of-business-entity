@@ -62,6 +62,7 @@ project:
         - file: media/wechat.md
     - title: 沟通管理
       children:
+        - file: connect/index.md
         - file: connect/external-bypass.md
     - title: 标准化
       children:
