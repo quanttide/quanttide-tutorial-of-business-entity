@@ -53,9 +53,9 @@ project:
         - file: organization/culture.md
     - title: 人力资源
       children:
-        - file: hr/index.md
-        - file: hr/market-assessment-method.md
-        - file: hr/tech-assessment-method.md
+        - file: human/hr-index.md
+        - file: human/market-assessment-method.md
+        - file: human/tech-assessment-method.md
         - file: human/resignation.md
     - title: 媒体运营
       children:
