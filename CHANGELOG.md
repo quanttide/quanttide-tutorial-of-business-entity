@@ -2,6 +2,23 @@
 
 ## [Unreleased]
 
+## [0.4.3] - 2026-06-20
+
+### Added
+
+- myst.yml 补充 toc 缺失引用：hr、media、consulting、business/strategy、writing、asset
+- 合并市场序列与技术序列考核方法为 assessment.md
+
+### Changed
+
+- 考核方法重写为叙事风格
+- human/hr-index.md 重命名为 human/index.md
+
+### Removed
+
+- 删除 human/market-assessment-method.md（已合并为 assessment.md）
+- 删除 human/tech-assessment-method.md（已合并为 assessment.md）
+
 ## [0.4.2] - 2026-06-18
 
 ### Added
