@@ -57,6 +57,7 @@ project:
         - file: human/index.md
         - file: human/assessment.md
         - file: human/resignation.md
+        - file: qtrecurit/audit.md
     - title: 媒体运营
       children:
         - file: media/wechat.md
