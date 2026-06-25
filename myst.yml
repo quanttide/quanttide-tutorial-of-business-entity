@@ -26,7 +26,7 @@ project:
         - file: intro/strategy.md
         - file: intro/management.md
         - file: business/quotation.md
-        - file: strategy/playbook.md
+        - file: strategy/build-in-public.md
     - title: 量潮数据
       children:
         - file: qtdata/index.md
