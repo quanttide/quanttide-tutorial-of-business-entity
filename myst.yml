@@ -28,7 +28,7 @@ project:
         - file: business/quotation.md
     - title: 战略
       children:
-        - file: strategy/index.md
+        - file: strategy/rule-of-law.md
         - file: strategy/build-in-public.md
     - title: 量潮数据
       children:
