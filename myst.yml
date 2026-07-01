@@ -52,9 +52,10 @@ project:
         - file: entrepreneurship/from_executor_to_manager.md
     - title: 组织管理
       children:
-        - file: organization/company-representative.md
-        - file: organization/mechanism-design.md
-        - file: organization/culture.md
+        - file: org/company-representative.md
+        - file: org/mechanism-design.md
+        - file: org/culture/what.md
+        - file: org/culture/how.md
     - title: 人力资源
       children:
         - file: human/index.md
