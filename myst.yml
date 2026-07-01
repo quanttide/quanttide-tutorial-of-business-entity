@@ -22,7 +22,7 @@ project:
     - title: 组织管理
       children:
         - file: org/index.md
-        - file: org/management.md
+        - file: org/governance-layer.md
         - file: org/company-representative.md
         - file: org/mechanism-design.md
         - file: org/culture/what.md
