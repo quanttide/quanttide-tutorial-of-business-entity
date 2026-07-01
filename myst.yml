@@ -23,13 +23,13 @@ project:
       children:
         - file: org/index.md
         - file: org/governance-layer.md
+        - file: org/challenges.md
         - file: org/company-representative.md
         - file: org/mechanism-design.md
         - file: org/culture/what.md
         - file: org/culture/how.md
     - title: 战略
       children:
-        - file: strategy/focus.md
         - file: strategy/rule-of-law.md
         - file: strategy/build-in-public.md
     - title: 业务
