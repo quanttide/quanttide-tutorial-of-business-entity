@@ -75,6 +75,7 @@ project:
         - file: stdn/bylaw.md
     - title: 财务税务
       children:
+        - file: finance/index.md
         - file: finance/tax/index.md
     - title: 写作
       children:
