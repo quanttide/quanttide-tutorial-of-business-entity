@@ -19,6 +19,11 @@ project:
     - README.md
   toc:
     - file: index.md
+    - title: 快速入门
+      children:
+        - file: intro/index.md
+        - file: intro/company.md
+        - file: intro/individual.md
     - title: 组织管理
       children:
         - file: org/index.md
