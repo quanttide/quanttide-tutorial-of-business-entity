@@ -22,9 +22,9 @@ project:
     - title: 经营入门
       children:
         - file: intro/index.md
-        - file: intro/business-model.md
         - file: intro/strategy.md
         - file: intro/management.md
+        - file: business/business-model.md
         - file: business/quotation.md
     - title: 战略
       children:
