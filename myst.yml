@@ -19,17 +19,23 @@ project:
     - README.md
   toc:
     - file: index.md
-    - title: 经营入门
+    - title: 组织管理
       children:
-        - file: intro/index.md
-        - file: intro/strategy.md
-        - file: intro/management.md
-        - file: business/business-model.md
-        - file: business/quotation.md
+        - file: org/index.md
+        - file: org/management.md
+        - file: org/company-representative.md
+        - file: org/mechanism-design.md
+        - file: org/culture/what.md
+        - file: org/culture/how.md
     - title: 战略
       children:
+        - file: strategy/focus.md
         - file: strategy/rule-of-law.md
         - file: strategy/build-in-public.md
+    - title: 业务
+      children:
+        - file: business/business-model.md
+        - file: business/quotation.md
     - title: 量潮数据
       children:
         - file: qtdata/index.md
@@ -50,12 +56,6 @@ project:
         - file: entrepreneurship/index.md
         - file: entrepreneurship/business.md
         - file: entrepreneurship/from_executor_to_manager.md
-    - title: 组织管理
-      children:
-        - file: org/company-representative.md
-        - file: org/mechanism-design.md
-        - file: org/culture/what.md
-        - file: org/culture/how.md
     - title: 人力资源
       children:
         - file: human/index.md
