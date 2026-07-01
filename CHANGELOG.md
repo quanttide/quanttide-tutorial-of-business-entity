@@ -2,6 +2,31 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-07-01
+
+### Added
+
+- intro/: 重建快速入门，分公司视角和个人视角
+- finance/index.md: 财务三层体系介绍（财务会计、管理会计、公司金融）
+- org/culture/what.md: 制度保护温情
+
+### Changed
+
+- intro/ 内容归入 org/ 和 strategy/：经营现状→org/index.md，管理体系→org/governance-layer.md，战略焦点→org/challenges.md
+- org/culture/ 拆分为 what.md 和 how.md
+- company.md 按职级章程修正为五序列体系（G、P、F、T、M）
+- individual.md 各平台加入改为全员必选
+- index.md 添加简介，区分教程/手册/章程三层
+- 文档分层改为按约束力自下而上排序（教程→手册→章程）
+- AGENTS.md 排序规则改为入门/业务/职能
+- organization/ 重命名为 org/
+- business-model.md 移入 business/
+
+### Removed
+
+- ROADMAP.md
+- intro/ 目录（内容已移至 org/ 和 strategy/）
+
 ## [0.4.6] - 2026-06-20
 
 ### Changed
