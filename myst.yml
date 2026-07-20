@@ -31,7 +31,7 @@ project:
         - file: org/challenges.md
         - file: org/company-representative.md
         - file: org/mechanism-design.md
-        - file: org/culture/what.md
+        - file: org/culture/index.md
         - file: org/culture/how.md
     - title: 战略
       children:
