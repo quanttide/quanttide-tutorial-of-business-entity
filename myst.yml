@@ -86,7 +86,6 @@ project:
       children:
         - file: write/index.md
         - file: write/bylaw.md
-        - file: write/engineering.md
     - title: 开源
       children:
         - file: share/license.md
