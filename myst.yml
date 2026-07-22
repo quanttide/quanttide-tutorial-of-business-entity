@@ -33,6 +33,7 @@ project:
         - file: org/mechanism-design.md
         - file: org/culture/index.md
         - file: org/culture/how.md
+        - file: org/founder-dependency.md
     - title: 战略
       children:
         - file: strategy/rule-of-law.md
