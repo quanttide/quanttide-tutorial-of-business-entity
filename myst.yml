@@ -37,6 +37,7 @@ project:
       children:
         - file: strategy/rule-of-law.md
         - file: strategy/build-in-public.md
+        - file: strategy/competence.md
     - title: 业务
       children:
         - file: business/business-model.md
@@ -81,7 +82,6 @@ project:
     - title: 财务税务
       children:
         - file: finance/index.md
-        - file: finance/tax/index.md
     - title: 写作
       children:
         - file: write/index.md
@@ -91,11 +91,6 @@ project:
         - file: share/license.md
     - title: 产品研发
       children:
-        - file: product/brd.md
-    - title: DevOps
-      children:
-        - file: devops/refactor_indicator.md
-        - file: devops/sematric_version.md
     - title: 智能体工程
       children:
         - file: agent/skill.md
