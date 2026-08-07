@@ -66,9 +66,10 @@ project:
     - title: 人力资源
       children:
         - file: human/index.md
-        - file: human/assessment.md
+        - file: qtrecurit/index.md
+        - file: human/recuritment.md
+        - file: human/audit.md
         - file: human/resignation.md
-        - file: qtrecurit/audit.md
     - title: 媒体运营
       children:
         - file: media/wechat.md
