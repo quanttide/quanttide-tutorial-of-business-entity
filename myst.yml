@@ -66,7 +66,7 @@ project:
     - title: 人力资源
       children:
         - file: human/index.md
-        - file: qtrecurit/index.md
+        - file: qtrecurit/standards.md
         - file: human/recuritment.md
         - file: human/audit.md
         - file: human/resignation.md
