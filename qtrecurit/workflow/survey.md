@@ -52,7 +52,7 @@ qtrecurit access survey \
   --name 张三
 ```
 
-CLI 会通过 `hr@quanttide.com` 发出问卷通知邮件。发送后自动将投递邮件归档到「已发送问卷」文件夹。
+CLI 会通过 `hr@quanttide.com` 发出问卷通知邮件。发送后自动将投递邮件归档到「已发送问卷」文件夹，并标注为已读（移除 UNREAD 标签）。
 
 ### 4. 验证发送
 
