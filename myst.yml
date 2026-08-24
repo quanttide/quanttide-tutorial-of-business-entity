@@ -66,7 +66,6 @@ project:
     - title: 人力资源
       children:
         - file: human/index.md
-        - file: qtrecurit/criteria.md
         - file: human/recuritment.md
         - file: human/audit.md
         - file: human/resignation.md
@@ -91,6 +90,9 @@ project:
     - title: 开源
       children:
         - file: share/license.md
+    - title: 招聘
+      children:
+        - file: qtrecurit/workflow/survey.md
     - title: 产品研发
       children:
     - title: 智能体工程
