@@ -4,11 +4,7 @@ project:
   description: 量潮科技内部工作教程，涵盖经营入门、组织制度、产品开发、DevOps 等主题
   keywords:
     - 量潮科技
-    - 教程
-    - 创业
-    - 管理
-    - 组织
-    - 标准化
+    - 工作教程
   authors:
     - name: 量潮科技
   license: CC-BY-4.0
@@ -19,86 +15,31 @@ project:
     - README.md
   toc:
     - file: index.md
-    - title: 快速入门
+    - title: 绪论
       children:
         - file: intro/index.md
-        - file: intro/company.md
-        - file: intro/individual.md
-    - title: 组织管理
-      children:
-        - file: org/index.md
-        - file: org/governance-layer.md
-        - file: org/challenges.md
-        - file: org/company-representative.md
-        - file: org/mechanism-design.md
-        - file: org/culture/index.md
-        - file: org/culture/how.md
-        - file: org/founder-dependency.md
-    - title: 战略
-      children:
-        - file: strategy/rule-of-law.md
-        - file: strategy/build-in-public.md
-        - file: strategy/competence.md
-    - title: 业务
-      children:
-        - file: business/business-model.md
-        - file: business/quotation.md
     - title: 量潮数据
       children:
         - file: qtdata/index.md
-        - file: qtdata/customer.md
-        - file: qtdata/project.md
+        - file: qtdata/business.md
     - title: 量潮课堂
       children:
         - file: qtclass/index.md
-        - file: qtclass/org.md
         - file: qtclass/sales.md
         - file: qtclass/strategy.md
-        - file: qtclass/zstu.md
-    - title: 创业管理
+    - title: 量潮云
       children:
-        - file: entrepreneurship/index.md
-        - file: entrepreneurship/business.md
-        - file: entrepreneurship/from_executor_to_manager.md
-    - title: 人力资源
+        - file: qtcloud/product.md
+    - title: 量潮众包
       children:
-        - file: human/index.md
-        - file: human/recuritment.md
-        - file: human/audit.md
-        - file: human/resignation.md
-    - title: 媒体运营
+        - file: qtcrowd/index.md
+    - title: 量潮招聘
       children:
-        - file: media/wechat.md
-    - title: 沟通管理
-      children:
-        - file: connect/index.md
-        - file: connect/external-bypass.md
-    - title: 标准化
-      children:
-        - file: stdn/index.md
-        - file: stdn/bylaw.md
-    - title: 财务税务
-      children:
-        - file: finance/index.md
-    - title: 写作
-      children:
-        - file: write/index.md
-        - file: write/bylaw.md
-    - title: 开源
-      children:
-        - file: share/license.md
-    - title: 招聘
-      children:
+        - file: qtrecurit/index.md
         - file: qtrecurit/workflow/survey.md
-    - title: 产品研发
-      children:
-    - title: 智能体工程
-      children:
-        - file: agent/skill.md
     - title: 附录
       children:
         - file: appendix/definitions.md
-        - file: asset/batch-maintain.md
 site:
   template: book-theme
   options:
