@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Removed
+
+- 移除 qtconsult/index.md（已迁移至 essay 仓库）
+
 ## [0.5.0] - 2026-07-01
 
 ### Added

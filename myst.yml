@@ -55,9 +55,6 @@ project:
         - file: qtclass/sales.md
         - file: qtclass/strategy.md
         - file: qtclass/zstu.md
-    - title: 量潮咨询
-      children:
-        - file: qtconsult/index.md
     - title: 创业管理
       children:
         - file: entrepreneurship/index.md
