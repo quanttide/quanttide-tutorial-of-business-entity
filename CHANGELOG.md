@@ -1,10 +1,28 @@
 # CHANGELOG
 
-## [Unreleased]
+## [0.6.0] - 2026-08-13
+
+### Added
+
+- qtcloud/index.md：量潮云教程（重写为业务简介，叙事风格）
+- qtcrowd/index.md：量潮众包教程（产教融合最后一公里）
+- qtrecurit/workflow/survey.md：发送准入问卷教程（操作方法、原则与原理）
+
+### Changed
+
+- myst.yml：教程目录按业务线重构（量潮数据、量潮课堂、量潮云、量潮众包、量潮招聘）
+- qtrecurit/index.md：重写量潮招聘教程，从 CEO 视角解释组织方式
+- qtdata/business.md：重写为面向商务经理的规模化获客与留存
+- qtclass/sales.md：改为叙事风格，按培养体系入口定位升级（新增信用交付环节、众包与招聘渠道）
+- qtclass/strategy.md：补充「从活下来到做起来」演进（多入口、成长与信用、信用商业化、飞轮）
+- qtrecurit 评估文档：拆分与重构，公开评估标准前置招聘公平动机
 
 ### Removed
 
 - 移除 qtconsult/index.md（已迁移至 essay 仓库）
+- 移除人力资源教程内容
+- org.md 迁移至 history 仓库
+- 删除已合并的客户画像文件
 
 ## [0.5.0] - 2026-07-01
 
