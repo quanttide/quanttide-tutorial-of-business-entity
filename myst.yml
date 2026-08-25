@@ -29,7 +29,7 @@ project:
         - file: qtclass/strategy.md
     - title: 量潮云
       children:
-        - file: qtcloud/product.md
+        - file: qtcloud/index.md
     - title: 量潮众包
       children:
         - file: qtcrowd/index.md
