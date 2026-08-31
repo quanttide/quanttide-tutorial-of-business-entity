@@ -22,6 +22,7 @@ project:
       children:
         - file: qtdata/index.md
         - file: qtdata/business.md
+        - file: qtdata/persona.md
     - title: 量潮课堂
       children:
         - file: qtclass/index.md
