@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [Unreleased]
+
+### Changed
+
+- qtdata/index.md：重写为「量潮数据工作模式」——业务性质、五步双重验收流程、配置与收益结构、设计原理与订单拆解方法
+- myst.yml：量潮数据目录移除 business.md、persona.md 条目
+
+### Removed
+
+- qtdata/business.md、qtdata/persona.md：迁移至意图库仓库 data/intention/qtdata/
+
 ## [0.6.0] - 2026-08-13
 
 ### Added
