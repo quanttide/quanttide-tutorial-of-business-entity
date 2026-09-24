@@ -2,10 +2,14 @@
 
 ## [Unreleased]
 
+### Added
+
+- qtdata 教程重构为九篇操作教程：index（学习目标与导航）、model（工作模式）、intake（需求八问、需求确认单、判断规则、报价与范围）、units（标准单元拆解与任务单）、execute（订单档案与过程记录）、acceptance（双重验收与验收表）、exceptions（范围变化与异常处理）、case（完整订单案例）、principles（设计原理）——同一案例贯穿全文，每步给出表单、判断规则与输出物
+
 ### Changed
 
-- qtdata/index.md：重写为「量潮数据工作模式」——业务性质、五步双重验收流程、配置与收益结构、设计原理与订单拆解方法
-- myst.yml：量潮数据目录移除 business.md、persona.md 条目
+- qtdata/index.md：重写为学习目标与章节导航（首版工作模式内容已分拆至 model/execute/acceptance/principles 各篇；原经营现状已迁移至意图库）
+- myst.yml：量潮数据目录注册九篇；移除 business.md、persona.md 条目
 
 ### Removed
 

@@ -21,6 +21,14 @@ project:
     - title: 量潮数据
       children:
         - file: qtdata/index.md
+        - file: qtdata/model.md
+        - file: qtdata/intake.md
+        - file: qtdata/units.md
+        - file: qtdata/execute.md
+        - file: qtdata/acceptance.md
+        - file: qtdata/exceptions.md
+        - file: qtdata/case.md
+        - file: qtdata/principles.md
     - title: 量潮课堂
       children:
         - file: qtclass/index.md
