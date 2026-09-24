@@ -44,6 +44,66 @@ project:
       children:
         - file: qtrecurit/index.md
         - file: qtrecurit/workflow/survey.md
+    - title: 组织管理
+      children:
+        - file: org/index.md
+        - file: org/founder-dependency.md
+        - file: org/company-representative.md
+        - file: org/mechanism-design.md
+        - file: org/culture/index.md
+        - file: org/culture/how.md
+    - title: 议事管理
+      children:
+        - file: delib/how-to-run-effective-meeting.md
+        - file: delib/reduce-founder-dependency-through-meetings.md
+    - title: 战略
+      children:
+        - file: strategy/business-model.md
+        - file: strategy/competence.md
+        - file: strategy/challenges.md
+        - file: strategy/rule-of-law.md
+        - file: strategy/governance-layer.md
+        - file: strategy/build-in-public.md
+    - title: 业务
+      children:
+        - file: business/quotation.md
+    - title: 市场营销
+      children:
+        - file: market/index.md
+    - title: 媒体运营
+      children:
+        - file: media/wechat.md
+    - title: 沟通管理
+      children:
+        - file: connect/index.md
+        - file: connect/channels.md
+        - file: connect/principles.md
+        - file: connect/external-bypass.md
+    - title: 标准化
+      children:
+        - file: stdn/index.md
+        - file: stdn/bylaw.md
+    - title: 财务税务
+      children:
+        - file: finance/index.md
+    - title: 写作
+      children:
+        - file: write/index.md
+        - file: write/bylaw.md
+        - file: write/brochure.md
+    - title: 开源
+      children:
+        - file: share/license.md
+    - title: 数字资产
+      children:
+        - file: asset/batch-maintain.md
+    - title: DevOps
+      children:
+        - file: devops/test.md
+        - file: devops/release.md
+    - title: 智能体工程
+      children:
+        - file: agent/skill.md
     - title: 附录
       children:
         - file: appendix/definitions.md

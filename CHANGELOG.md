@@ -10,6 +10,7 @@
 
 - qtdata/index.md：重写为学习目标与章节导航（首版工作模式内容已分拆至 model/execute/acceptance/principles 各篇；原经营现状已迁移至意图库）
 - myst.yml：量潮数据目录注册九篇；移除 business.md、persona.md 条目
+- myst.yml：目录补全职能章节（组织管理、议事管理、战略、业务、市场营销、媒体运营、沟通管理、标准化、财务税务、写作、开源、数字资产、DevOps、智能体工程），此前 28 个源文件未登记入目录
 
 ### Removed
 
