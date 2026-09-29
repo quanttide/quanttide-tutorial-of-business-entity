@@ -1,107 +1,44 @@
 # ROADMAP
 
-## 内容迁出：公司教程 → 领域教程
+## 内容迁出：公司教程 → 领域教程（已完成）
 
-### 为什么迁
+公司教程是**主体层**（`assets/quanttide-tutorial/default/company`），只讲"量潮科技这家公司怎么做"。领域知识——换个公司也成立的方法——已全部迁往对应领域教程仓库 `quanttide-tutorial-of-*`。
 
-公司教程是**主体层**（`assets/quanttide-tutorial/default/company`），回答的是"量潮科技这家公司怎么做"。领域知识——换个公司也成立的方法——属于领域层，应该在对应领域教程仓库 `quanttide-tutorial-of-*` 里，公司教程只留指针。
+判断规则：**把文档里的"量潮"换成另一家公司，内容还成立吗？**成立 → 迁去领域教程；不成立 → 留在公司教程。
 
-迁完之后两侧的边界：
+### 迁出结果
 
-| | 公司教程（本仓库） | 领域教程 `quanttide-tutorial-of-*` |
+29 篇中 28 篇迁入 12 个领域教程仓库，1 篇占位删除。
+
+| # | 目标教程仓库 | 篇数 | 落位 |
+|--:|:--|--:|:--|
+| 1 | [`quanttide-tutorial-of-agent-engineering`](https://github.com/quanttide/quanttide-tutorial-of-agent-engineering) | 1 | `skill.md` |
+| 2 | [`quanttide-tutorial-of-asset-management`](https://github.com/quanttide/quanttide-tutorial-of-asset-management) | 1 | `governance/batch-maintain.md` |
+| 3 | [`quanttide-tutorial-of-business-development`](https://github.com/quanttide/quanttide-tutorial-of-business-development) | 1 | `index.md` |
+| 4 | [`quanttide-tutorial-of-communication-management`](https://github.com/quanttide/quanttide-tutorial-of-communication-management) | 4 | `index.md`、`channels.md`、`principles.md`、`external-bypass.md` |
+| 5 | [`quanttide-tutorial-of-deliberation-management`](https://github.com/quanttide/quanttide-tutorial-of-deliberation-management) | 2 | `how-to-run-effective-meeting.md`、`reduce-founder-dependency-through-meetings.md` |
+| 6 | [`quanttide-tutorial-of-devops`](https://github.com/quanttide/quanttide-tutorial-of-devops) | 2 | `stage/release/practice.md`、`stage/test.md` |
+| 7 | [`quanttide-tutorial-of-finance-management`](https://github.com/quanttide/quanttide-tutorial-of-finance-management) | 1 | `index.md` |
+| 8 | [`quanttide-tutorial-of-narrative-engineering`](https://github.com/quanttide/quanttide-tutorial-of-narrative-engineering) | 3 | `index.md`、`bylaw.md`、`brochure.md` |
+| 9 | [`quanttide-tutorial-of-organization-management`](https://github.com/quanttide/quanttide-tutorial-of-organization-management) | 5 | `index.md`、`founder-dependency.md`、`mechanism-design.md`、`culture/index.md`、`culture/how.md` |
+| 10 | [`quanttide-tutorial-of-open-source`](https://github.com/quanttide/quanttide-tutorial-of-open-source) | 1 | `license.md` |
+| 11 | [`quanttide-tutorial-of-social-media`](https://github.com/quanttide/quanttide-tutorial-of-social-media) | 1 | `wechat.md` |
+| 12 | [`quanttide-tutorial-of-strategy-management`](https://github.com/quanttide/quanttide-tutorial-of-strategy-management) | 6 | `business-model.md`、`competence.md`、`challenges.md`、`rule-of-law.md`、`governance-layer.md`、`build-in-public.md` |
+
+删除 1 篇：`connect/README.md`——3 行占位，与 `connect/index.md` 重复，不搬运。
+
+### 新建的两个教程仓库
+
+| 领域 | 仓库 | 承接内容 |
 |:--|:--|:--|
-| 回答 | 量潮科技怎么做 | 这门知识是什么、通用方法 |
-| 素材 | 公司口径、制度、业务线、案例 | 方法、原则、流程、验收标准 |
-| 变化频率 | 随公司调整 | 随领域认知 |
-| 读者 | 新人、在职成员 | 任何做这件事的人 |
+| 商务拓展 | `quanttide-tutorial-of-business-development` | 报价 |
+| 议事管理 | `quanttide-tutorial-of-deliberation-management` | 开会方法、用会议降低创始人依赖 |
 
-一条判断规则：**把文档里的"量潮"换成另一家公司，内容还成立吗？**成立 → 迁去领域教程；不成立 → 留在公司教程。
-
-### 迁出清单
-
-共 34 篇，按目标教程分组。
-
-#### 智能体工程 → [`quanttide-tutorial-of-agent-engineering`](https://github.com/quanttide/quanttide-tutorial-of-agent-engineering)
-
-- [ ] `agent/skill.md`
-
-#### 资产管理 → [`quanttide-tutorial-of-asset-management`](https://github.com/quanttide/quanttide-tutorial-of-asset-management)
-
-- [ ] `asset/batch-maintain.md`
-
-#### 商务拓展 → **【待建教程仓库】**
-
-- [ ] `business/quotation.md`
-
-#### 沟通管理 → [`quanttide-tutorial-of-communication-management`](https://github.com/quanttide/quanttide-tutorial-of-communication-management)
-
-- [ ] `connect/README.md`
-- [ ] `connect/channels.md`
-- [ ] `connect/external-bypass.md`
-- [ ] `connect/index.md`
-- [ ] `connect/principles.md`
-
-#### 议事管理 → **【待建教程仓库】**
-
-- [ ] `delib/how-to-run-effective-meeting.md`
-- [ ] `delib/reduce-founder-dependency-through-meetings.md`
-
-#### DevOps 工程 → [`quanttide-tutorial-of-devops`](https://github.com/quanttide/quanttide-tutorial-of-devops)
-
-- [ ] `devops/release.md`
-- [ ] `devops/test.md`
-
-#### 财务管理 → [`quanttide-tutorial-of-finance-management`](https://github.com/quanttide/quanttide-tutorial-of-finance-management)
-
-- [ ] `finance/index.md`
-
-#### 营销管理 → [`quanttide-tutorial-of-market-management`](https://github.com/quanttide/quanttide-tutorial-of-market-management)
-
-- [x] `market/index.md` —— 已迁出（教程首篇，落在该仓库 `index.md`）
-
-#### 新媒体运营 → [`quanttide-tutorial-of-social-media`](https://github.com/quanttide/quanttide-tutorial-of-social-media)
-
-- [ ] `media/wechat.md`
-
-#### 组织管理 → [`quanttide-tutorial-of-organization-management`](https://github.com/quanttide/quanttide-tutorial-of-organization-management)
-
-- [ ] `org/culture/how.md`
-- [ ] `org/culture/index.md`
-- [ ] `org/founder-dependency.md`
-- [ ] `org/index.md`
-- [ ] `org/mechanism-design.md`
-
-#### 开源管理 → [`quanttide-tutorial-of-open-source`](https://github.com/quanttide/quanttide-tutorial-of-open-source)
-
-- [ ] `share/license.md`
-
-#### 元工程 → [`quanttide-tutorial-of-philosophy`](https://github.com/quanttide/quanttide-tutorial-of-philosophy)
-
-- [x] `stdn/index.md` —— 已迁出（落在该仓库 `standardization.md`）
-- [x] `stdn/bylaw.md` —— 已迁出（落在该仓库 `bylaw.md`）
-
-#### 战略管理 → [`quanttide-tutorial-of-strategy-management`](https://github.com/quanttide/quanttide-tutorial-of-strategy-management)
-
-- [ ] `strategy/build-in-public.md`
-- [ ] `strategy/business-model.md`
-- [ ] `strategy/challenges.md`
-- [ ] `strategy/competence.md`
-- [ ] `strategy/governance-layer.md`
-- [ ] `strategy/rule-of-law.md`
-
-#### 写作管理 → [`quanttide-tutorial-of-narrative-engineering`](https://github.com/quanttide/quanttide-tutorial-of-narrative-engineering)
-
-- [ ] `write/brochure.md`
-- [ ] `write/bylaw.md`
-- [ ] `write/index.md`
-
-### 留在公司教程
-
-共 20 篇，都是主体性的内容：
+### 留在公司教程（22 篇）
 
 | 文件 | 为什么留 |
 |:--|:--|
-| `index.md` | 教程入口、三层文档说明 |
+| `index.md` | 教程入口、三层文档说明、领域教程指引 |
 | `intro/index.md` | 新人快速入门 |
 | `appendix/definitions.md` | 本公司的定义 |
 | `qtdata/`（9 篇） | 量潮数据业务线怎么跑 |
@@ -111,37 +48,34 @@
 | `qtcrowd/`（1 篇） | 量潮众包业务线怎么跑 |
 | `qtrecurit/`（2 篇） | 量潮招聘业务线怎么跑 |
 
-### 前置条件：两个领域还没有教程仓库
+### 收口动作
 
-| 领域 | 需建仓库 | 承接内容 |
-|:--|:--|:--|
-| 商务拓展 | `quanttide-tutorial-of-business-development` | `business/quotation.md` |
-| 议事管理 | `quanttide-tutorial-of-deliberation-management` | `delib/`（2 篇） |
+- [x] 内容写进目标领域教程仓库，按各自仓库的目录组织
+- [x] 本仓库删除原文件，`myst.yml` 目录同步
+- [x] 本仓库 `index.md` 增「领域教程不在这里」指引段落
+- [x] `AGENTS.md` 写入判断规则，防止领域内容再回流
+- [x] 迁出后两处教程仓库的指针同步到 `assets/quanttide-tutorial`
 
-一处未定：
+### 待办：迁入内容尚未去公司化
 
-- **`connect/README.md`** 是 3 行占位，与 `connect/index.md` 重复，迁出时应直接删除而不是搬运
+迁移是**原样搬运**——内容、案例、口径都保持作者原文，没有改写。其中不少篇目仍带量潮的具体案例（如面试例子、CTO 助理发版、公司财务现状）。按"换成另一家公司还成立吗"这条规则，这些段落应当抽掉或改写成通用表述，但那是内容编辑，需要作者判断，没有在这一轮做。
 
-### 迁出后的收口动作
-
-每迁完一章，做四件事：
-
-1. 内容写进目标领域教程仓库，按 `docs/` 的写法组织，不复述公司口径
-2. 本仓库删原文件，`myst.yml` 目录同步
-3. 需要保留的公司口径，改写成指向领域教程的指针段落
-4. 本仓库 `CHANGELOG.md` 记一条，注明迁往何处
-
-### 迁出后的公司教程长什么样
+### 当前公司教程结构
 
 ```text
-default/company/          # 量潮科技工作教程——只讲"这家公司"
+default/company/           # 量潮科技工作教程——只讲"这家公司"
 ├── index.md
-├── intro/                # 新人入门
-├── appendix/             # 定义
-└── qtdata|qtclass|qtcloud|qtconsult|qtcrowd|qtrecurit/   # 业务线
+├── intro/                 # 新人入门
+├── appendix/              # 定义
+├── qtdata/                # 业务线
+├── qtclass/
+├── qtcloud/
+├── qtconsult/
+├── qtcrowd/
+└── qtrecurit/
 ```
 
-领域类章节（`agent/`、`asset/`、`business/`、`connect/`、`delib/`、`devops/`、`finance/`、`market/`、`media/`、`org/`、`share/`、`stdn/`、`strategy/`、`write/`）全部腾空——其中 `market/`、`stdn/` 已迁完。
+领域类章节（`agent/`、`asset/`、`business/`、`connect/`、`delib/`、`devops/`、`finance/`、`market/`、`media/`、`org/`、`share/`、`stdn/`、`strategy/`、`write/`）已全部腾空。
 
 ## v0.6.0
 
