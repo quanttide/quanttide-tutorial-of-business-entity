@@ -81,10 +81,6 @@ project:
         - file: connect/channels.md
         - file: connect/principles.md
         - file: connect/external-bypass.md
-    - title: 标准化
-      children:
-        - file: stdn/index.md
-        - file: stdn/bylaw.md
     - title: 财务税务
       children:
         - file: finance/index.md

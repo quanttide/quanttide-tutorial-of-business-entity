@@ -19,7 +19,7 @@
 
 ### 迁出清单
 
-共 32 篇，按目标教程分组。
+共 34 篇，按目标教程分组。
 
 #### 智能体工程 → [`quanttide-tutorial-of-agent-engineering`](https://github.com/quanttide/quanttide-tutorial-of-agent-engineering)
 
@@ -75,10 +75,10 @@
 
 - [ ] `share/license.md`
 
-#### 标准化 → **【待建教程仓库】**
+#### 元工程 → [`quanttide-tutorial-of-philosophy`](https://github.com/quanttide/quanttide-tutorial-of-philosophy)
 
-- [ ] `stdn/bylaw.md`
-- [ ] `stdn/index.md`
+- [x] `stdn/index.md` —— 已迁出（落在该仓库 `standardization.md`）
+- [x] `stdn/bylaw.md` —— 已迁出（落在该仓库 `bylaw.md`）
 
 #### 战略管理 → [`quanttide-tutorial-of-strategy-management`](https://github.com/quanttide/quanttide-tutorial-of-strategy-management)
 
@@ -97,7 +97,7 @@
 
 ### 留在公司教程
 
-共 23 篇，都是主体性的内容：
+共 21 篇，都是主体性的内容：
 
 | 文件 | 为什么留 |
 |:--|:--|
@@ -119,9 +119,8 @@
 | 商务拓展 | `quanttide-tutorial-of-business-development` | `business/quotation.md` |
 | 议事管理 | `quanttide-tutorial-of-deliberation-management` | `delib/`（2 篇） |
 
-三处未定：
+两处未定：
 
-- **标准化**（`stdn/`，2 篇）无对应领域，目标待定——放通识层 `quanttide-tutorial-of-readme`，还是先留本仓库
 - **`connect/README.md`** 是 3 行占位，与 `connect/index.md` 重复，迁出时应直接删除而不是搬运
 - **`org/company-representative.md` 可再拆一层**：正文（条文解读、量潮的董事会与申诉机制）留在主体层，其中的「设计者注」讲的是通用方法论——怎么设计一个能真正制衡的职务（职权边界、义务命名、豁免的法律边界、救济与保险装置），这部分可拆出来迁往组织管理教程
 
@@ -145,7 +144,7 @@ default/company/          # 量潮科技工作教程——只讲"这家公司"
 └── qtdata|qtclass|qtcloud|qtconsult|qtcrowd|qtrecurit/   # 业务线
 ```
 
-领域类章节（`agent/`、`asset/`、`business/`、`connect/`、`delib/`、`devops/`、`finance/`、`market/`、`media/`、`org/`、`share/`、`stdn/`、`strategy/`、`write/`）全部腾空——其中 `market/` 已迁完。
+领域类章节（`agent/`、`asset/`、`business/`、`connect/`、`delib/`、`devops/`、`finance/`、`market/`、`media/`、`org/`、`share/`、`stdn/`、`strategy/`、`write/`）全部腾空——其中 `market/`、`stdn/` 已迁完。
 
 ## v0.6.0
 
