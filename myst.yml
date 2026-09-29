@@ -72,9 +72,6 @@ project:
     - title: 业务
       children:
         - file: business/quotation.md
-    - title: 市场营销
-      children:
-        - file: market/index.md
     - title: 媒体运营
       children:
         - file: media/wechat.md
