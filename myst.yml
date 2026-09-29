@@ -37,6 +37,11 @@ project:
     - title: 量潮云
       children:
         - file: qtcloud/index.md
+    - title: 量潮咨询
+      children:
+        - file: qtconsult/index.md
+        - file: qtconsult/stages/index.md
+        - file: qtconsult/stages/clarify.md
     - title: 量潮众包
       children:
         - file: qtcrowd/index.md
