@@ -1,42 +1,32 @@
 # CHANGELOG
 
-## [0.6.4] - 2026-09-29
+## [0.7.0] - 2026-09-29
 
 ### Changed
 
-- 领域内容全部迁出至对应领域教程仓库，本仓库收敛为主体层（只讲量潮科技自己怎么做）：28 篇迁入 12 个 `quanttide-tutorial-of-*` 仓库，1 篇占位删除
+- 领域内容全部迁出至对应领域教程仓库，本仓库收敛为主体层（只讲量潮科技自己怎么做）：29 篇中 28 篇迁入 12 个 `quanttide-tutorial-of-*` 仓库，1 篇占位删除
   - 智能体工程 → `agent-engineering`（`skill.md`）
   - 资产管理 → `asset-management`（`governance/batch-maintain.md`）
   - 商务拓展 → `business-development`（`index.md`，新建仓库）
   - 沟通管理 → `communication-management`（4 篇）
   - 议事管理 → `deliberation-management`（2 篇，新建仓库）
-  - DevOps → `devops`（`stage/release/practice.md`、`stage/test.md`）
+  - DevOps → `devops`（`stage/release/practice.md`、`stage/test/practice.md`）
   - 财务管理 → `finance-management`（`index.md`）
+  - 市场营销 → `market-management`（`index.md`，新建仓库）
   - 写作 → `narrative-engineering`（3 篇）
   - 组织管理 → `organization-management`（5 篇）
   - 开源 → `open-source`（`license.md`）
   - 媒体运营 → `social-media`（`wechat.md`）
+  - 标准化 → `philosophy`（元工程教程，落为 `standardization.md`、`bylaw.md`）
   - 战略 → `strategy-management`（6 篇）
 - `myst.yml` 目录收敛为：入口、绪论、六条业务线、附录
 - `index.md` 增「领域教程不在这里」段落，指向 `assets/quanttide-tutorial`
 - `AGENTS.md` 重写：目录排序改为「入门 → 业务 → 附录」，写入领域内容判断规则
-- `ROADMAP.md` 的迁出计划标记为已完成，并记录「迁入内容尚未去公司化」的待办
-
-## [0.6.3] - 2026-09-29
-
-### Added
-
-- ROADMAP 重写为「内容迁出：公司教程 → 领域教程」——目标是把领域知识从公司教程迁到 `quanttide-tutorial-of-*`，公司教程只留主体性的内容
-- 迁出清单逐篇列出，留在本仓库的逐条说明理由并给出前置条件
+- `ROADMAP.md` 重写为「内容迁出：公司教程 → 领域教程」并标记完成，记录「迁入内容尚未去公司化」的待办
 
 ### Removed
 
-- `org/company-representative.md`（公司代表制度）：整篇删除，`myst.yml` 目录同步；ROADMAP 的「留在公司教程」与待定项一并收敛
-
-### Changed
-
-- 市场营销章节迁出：`market/index.md` 移入新仓库 `quanttide-tutorial-of-market-management`（量潮营销管理教程），本仓库删除该章节，`myst.yml` 目录同步
-- 标准化章节迁出：`stdn/index.md`、`stdn/bylaw.md` 移入 `quanttide-tutorial-of-philosophy`（元工程教程），落为 `standardization.md`、`bylaw.md`；本仓库删除该章节，`myst.yml` 目录同步
+- `org/company-representative.md`（公司代表制度）：整篇删除
 
 ## [0.6.2] - 2026-09-24
 
