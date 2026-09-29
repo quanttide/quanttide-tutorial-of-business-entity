@@ -1,95 +1,148 @@
 # ROADMAP
 
-## 领域 → 教程覆盖
+## 内容迁出：公司教程 → 领域教程
 
-公司教程按「入门 → 业务 → 职能」组织。本路线图把它和量潮的**领域体系**对齐：逐个领域标明对应的具体教程在哪、现状如何、下一步补什么。
+### 为什么迁
 
-### 教程分两处
+公司教程是**主体层**（`assets/quanttide-tutorial/default/company`），回答的是"量潮科技这家公司怎么做"。领域知识——换个公司也成立的方法——属于领域层，应该在对应领域教程仓库 `quanttide-tutorial-of-*` 里，公司教程只留指针。
 
-| 位置 | 回答什么 | 归属 |
+迁完之后两侧的边界：
+
+| | 公司教程（本仓库） | 领域教程 `quanttide-tutorial-of-*` |
 |:--|:--|:--|
-| **本仓库章节** | 量潮科技作为主体怎么做——"我们这里怎么做" | 本仓库 |
-| **独立教程仓库** | 这门知识本身是什么——系统教程 | 各自 `quanttide-tutorial-of-*` 仓库，按学科聚合在 `assets/quanttide-tutorial`，领域仓库以 `docs/tutorial` 引用 |
+| 回答 | 量潮科技怎么做 | 这门知识是什么、通用方法 |
+| 素材 | 公司口径、制度、业务线、案例 | 方法、原则、流程、验收标准 |
+| 变化频率 | 随公司调整 | 随领域认知 |
+| 读者 | 新人、在职成员 | 任何做这件事的人 |
 
-两层不重写同一件事：独立教程讲通用方法，本仓库章节讲量潮的具体做法与口径。
+一条判断规则：**把文档里的"量潮"换成另一家公司，内容还成立吗？**成立 → 迁去领域教程；不成立 → 留在公司教程。
 
-### 覆盖表（量潮 40 个领域）
+### 迁出清单
 
-| # | 领域 | 缩写 | 本仓库章节 | 独立教程仓库 | 现状 |
-|--:|:--|:--|:--|:--|:--|
-| 1 | 智能体工程 | `agent` | `agent/skill.md` | `quanttide-tutorial-of-agent-engineering` | ✅ 齐备 |
-| 2 | 资产管理 | `asset` | `asset/batch-maintain.md` | `quanttide-tutorial-of-asset-management` | ✅ 齐备 |
-| 3 | 身份认证 | `auth` | — | `quanttide-tutorial-of-authorization-engineering` | 🟡 仅独立教程 |
-| 4 | 商务拓展 | `business` | `business/quotation.md` | — | 🟡 仅本仓库 |
-| 5 | 软件工程 | `code` | — | `quanttide-tutorial-of-software-engineering` | 🟡 仅独立教程 |
-| 6 | 沟通管理 | `connect` | `connect/`（4 篇） | `quanttide-tutorial-of-communication-management` | ✅ 齐备 |
-| 7 | 课程研发 | `course` | — | `quanttide-tutorial-of-course-development` | 🟡 仅独立教程 |
-| 8 | 众包管理 | `crowd` | — | — | ⬜ 皆缺 |
-| 9 | 客户关系 | `customer` | — | `quanttide-tutorial-of-customer-relations` | 🟡 仅独立教程 |
-| 10 | 数据工程 | `data` | — | `quanttide-tutorial-of-data-engineering` | 🟡 仅独立教程 |
-| 11 | 议事管理 | `delib` | `delib/`（2 篇） | — | 🟡 仅本仓库 |
-| 12 | 交互设计 | `design` | — | `quanttide-tutorial-of-interaction-design` | 🟡 仅独立教程 |
-| 13 | DevOps 工程 | `devops` | `devops/`（2 篇） | `quanttide-tutorial-of-devops` | ✅ 齐备 |
-| 14 | 文档工程 | `docs` | — | — | ⬜ 皆缺 |
-| 15 | 经济建模 | `econ` | — | — | ⬜ 皆缺 |
-| 16 | 创业管理 | `entrep` | — | `quanttide-tutorial-of-entrepreneurial-management` | 🟡 仅独立教程 |
-| 17 | 执行管理 | `execute` | — | `quanttide-tutorial-of-execution-management` | 🟡 仅独立教程 |
-| 18 | 财务管理 | `finance` | `finance/index.md` | `quanttide-tutorial-of-finance-management` | ✅ 齐备 |
-| 19 | 增长管理 | `growth` | — | `quanttide-tutorial-of-growth-management` | 🟡 仅独立教程 |
-| 20 | 健康管理 | `health` | — | — | ⬜ 皆缺 |
-| 21 | 人力资源 | `human` | — | `quanttide-tutorial-of-human-resources` | 🟡 仅独立教程 |
-| 22 | 创新管理 | `innov` | — | — | ⬜ 皆缺 |
-| 23 | 知识工程 | `knowl` | — | `quanttide-tutorial-of-knowledge-engineering` | 🟡 仅独立教程 |
-| 24 | 学习管理 | `learn` | — | `quanttide-tutorial-of-learning-management` | 🟡 仅独立教程 |
-| 25 | 新媒体运营 | `media` | `media/wechat.md` | `quanttide-tutorial-of-social-media` | ✅ 齐备 |
-| 26 | 元工程 | `meta` | — | `quanttide-tutorial-of-philosophy` | 🟡 仅独立教程 |
-| 27 | 组织管理 | `org` | `org/`（6 篇） | `quanttide-tutorial-of-organization-management` | ✅ 齐备 |
-| 28 | 支付工程 | `pay` | — | `quanttide-tutorial-of-payment-engineering` | 🟡 仅独立教程 |
-| 29 | 产品研发 | `product` | — | `quanttide-tutorial-of-product-development` | 🟡 仅独立教程 |
-| 30 | 项目管理 | `project` | — | `quanttide-tutorial-of-project-management` | 🟡 仅独立教程 |
-| 31 | 公共关系 | `relation` | — | — | ⬜ 皆缺 |
-| 32 | 学术研究 | `research` | — | `quanttide-tutorial-of-academic-research` | 🟡 仅独立教程 |
-| 33 | 销售管理 | `sales` | — | — | ⬜ 皆缺 |
-| 34 | 密码管理 | `secret` | — | — | ⬜ 皆缺 |
-| 35 | 安全工程 | `security` | — | — | ⬜ 皆缺 |
-| 36 | 战略管理 | `strategy` | `strategy/`（6 篇） | `quanttide-tutorial-of-strategy-management` | ✅ 齐备 |
-| 37 | 客户支持 | `support` | — | `quanttide-tutorial-of-customer-support` | 🟡 仅独立教程 |
-| 38 | 认知工程 | `think` | — | `quanttide-tutorial-of-cognitive-engineering` | 🟡 仅独立教程 |
-| 39 | 知识工作 | `work` | — | `quanttide-tutorial-of-knowledge-work` | 🟡 仅独立教程 |
-| 40 | 写作管理 | `write` | `write/`（3 篇） | `quanttide-tutorial-of-narrative-engineering` | ✅ 齐备 |
+共 31 篇，按目标教程分组。
 
-**现状口径**：✅ 齐备 = 两处都有；🟡 单侧 = 只有一处；⬜ 皆缺 = 两处都还没有。
+#### 智能体工程 → [`quanttide-tutorial-of-agent-engineering`](https://github.com/quanttide/quanttide-tutorial-of-agent-engineering)
 
-统计：齐备 9 · 仅本仓库 2 · 仅独立教程 20 · 皆缺 9。
+- [ ] `agent/skill.md`
 
-### 一个领域多篇教程
+#### 资产管理 → [`quanttide-tutorial-of-asset-management`](https://github.com/quanttide/quanttide-tutorial-of-asset-management)
 
-| 领域 | 相关教程 |
+- [ ] `asset/batch-maintain.md`
+
+#### 商务拓展 → **【待建教程仓库】**
+
+- [ ] `business/quotation.md`
+
+#### 沟通管理 → [`quanttide-tutorial-of-communication-management`](https://github.com/quanttide/quanttide-tutorial-of-communication-management)
+
+- [ ] `connect/README.md`
+- [ ] `connect/channels.md`
+- [ ] `connect/external-bypass.md`
+- [ ] `connect/index.md`
+- [ ] `connect/principles.md`
+
+#### 议事管理 → **【待建教程仓库】**
+
+- [ ] `delib/how-to-run-effective-meeting.md`
+- [ ] `delib/reduce-founder-dependency-through-meetings.md`
+
+#### DevOps 工程 → [`quanttide-tutorial-of-devops`](https://github.com/quanttide/quanttide-tutorial-of-devops)
+
+- [ ] `devops/release.md`
+- [ ] `devops/test.md`
+
+#### 财务管理 → [`quanttide-tutorial-of-finance-management`](https://github.com/quanttide/quanttide-tutorial-of-finance-management)
+
+- [ ] `finance/index.md`
+
+#### 新媒体运营 → [`quanttide-tutorial-of-social-media`](https://github.com/quanttide/quanttide-tutorial-of-social-media)
+
+- [ ] `media/wechat.md`
+
+#### 组织管理 → [`quanttide-tutorial-of-organization-management`](https://github.com/quanttide/quanttide-tutorial-of-organization-management)
+
+- [ ] `org/culture/how.md`
+- [ ] `org/culture/index.md`
+- [ ] `org/founder-dependency.md`
+- [ ] `org/index.md`
+- [ ] `org/mechanism-design.md`
+
+#### 开源管理 → [`quanttide-tutorial-of-open-source`](https://github.com/quanttide/quanttide-tutorial-of-open-source)
+
+- [ ] `share/license.md`
+
+#### 标准化 → **【待建教程仓库】**
+
+- [ ] `stdn/bylaw.md`
+- [ ] `stdn/index.md`
+
+#### 战略管理 → [`quanttide-tutorial-of-strategy-management`](https://github.com/quanttide/quanttide-tutorial-of-strategy-management)
+
+- [ ] `strategy/build-in-public.md`
+- [ ] `strategy/business-model.md`
+- [ ] `strategy/challenges.md`
+- [ ] `strategy/competence.md`
+- [ ] `strategy/governance-layer.md`
+- [ ] `strategy/rule-of-law.md`
+
+#### 写作管理 → [`quanttide-tutorial-of-narrative-engineering`](https://github.com/quanttide/quanttide-tutorial-of-narrative-engineering)
+
+- [ ] `write/brochure.md`
+- [ ] `write/bylaw.md`
+- [ ] `write/index.md`
+
+### 留在公司教程
+
+共 24 篇，都是主体性的内容：
+
+| 文件 | 为什么留 |
 |:--|:--|
-| 数据工程 | `data-engineering`（主）· `big-data` · `data-analytics` |
-| 课程研发 | `course-development`（主）· `vibe-coding` |
-| 产品研发 | `product-development`（主）· `product-design` · `product-operations` |
-| 创业管理 | `entrepreneurial-management`（主）· `founding-cloud-providers` |
-| 财务管理 | `finance-management`（主）· `financial-accounting` |
-| 写作管理 | `narrative-engineering`（主）· `writing` |
+| `index.md` | 教程入口、三层文档说明 |
+| `intro/index.md` | 新人快速入门 |
+| `appendix/definitions.md` | 本公司的定义 |
+| `org/company-representative.md` | 法定代表人制度——公司特有的治理安排 |
+| `market/index.md` | 市场营销——暂无对应领域教程，先留 |
+| `qtdata/`（9 篇） | 量潮数据业务线怎么跑 |
+| `qtclass/`（3 篇） | 量潮课堂业务线怎么跑 |
+| `qtcloud/`（1 篇） | 量潮云业务线怎么跑 |
+| `qtconsult/`（3 篇） | 量潮咨询业务线怎么跑 |
+| `qtcrowd/`（1 篇） | 量潮众包业务线怎么跑 |
+| `qtrecurit/`（2 篇） | 量潮招聘业务线怎么跑 |
 
-### 本仓库里没有对应领域的章节
+### 前置条件：两个领域还没有教程仓库
 
-市场营销、标准化、开源、绪论、附录，以及 6 条业务线教程（量潮数据、量潮课堂、量潮云、量潮咨询、量潮众包、量潮招聘）。业务线回答"某条业务怎么跑"，不是领域；绪论与附录是框架性内容。
+| 领域 | 需建仓库 | 承接内容 |
+|:--|:--|:--|
+| 商务拓展 | `quanttide-tutorial-of-business-development` | `business/quotation.md` |
+| 议事管理 | `quanttide-tutorial-of-deliberation-management` | `delib/`（2 篇） |
 
-### 下一步（建议）
+两处未定：
 
-**第一批｜本仓库补章节**
+- **标准化**（`stdn/`，2 篇）无对应领域，目标待定——放通识层 `quanttide-tutorial-of-readme`，还是先留本仓库
+- **`connect/README.md`** 是 3 行占位，与 `connect/index.md` 重复，迁出时应直接删除而不是搬运
 
-20 个领域目前只有独立教程、本仓库没有对应章节。工程类先补——数据工程、软件工程、知识工程、支付工程、元工程，本仓库已有零散素材（`qtdata/`、`devops/`、`share/`、`qtcloud/`）；管理类后补——人力资源、项目管理、执行管理、增长管理、客户关系、客户支持、产品研发、学习管理、课程研发、身份认证、交互设计、创业管理、学术研究、认知工程、知识工作。
+### 迁出后的收口动作
 
-**第二批｜独立教程仓库补内容**
+每迁完一章，做四件事：
 
-9 个领域两处皆缺，先补已有领域仓库的：文档工程（`docs`）、安全工程（`security`）、密码管理（`secret`）、公共关系（`relation`）、销售管理（`sales`）、众包管理（`crowd`）、创新管理（`innov`）、健康管理（`health`）。经济建模（`econ`）例外——`disciplines/economics/` 已有 11 篇经济学教程，但没有"经济建模"本身，需要新建。
+1. 内容写进目标领域教程仓库，按 `docs/` 的写法组织，不复述公司口径
+2. 本仓库删原文件，`myst.yml` 目录同步
+3. 需要保留的公司口径，改写成指向领域教程的指针段落
+4. 本仓库 `CHANGELOG.md` 记一条，注明迁往何处
 
-**第三批｜两侧收口**
+### 迁出后的公司教程长什么样
 
-每个领域至少保证一处有内容：要么本仓库有章节，要么独立教程仓库有教程。本仓库章节的写作口径——只写量潮的做法与口径，通用方法指向独立教程仓库，不重复写一遍。
+```text
+default/company/          # 量潮科技工作教程——只讲"这家公司"
+├── index.md
+├── intro/                # 新人入门
+├── appendix/             # 定义
+├── market/               # 市场营销（待定去向）
+├── org/                  # 只剩 company-representative.md
+└── qtdata|qtclass|qtcloud|qtconsult|qtcrowd|qtrecurit/   # 业务线
+```
+
+领域类章节（`agent/`、`asset/`、`connect/`、`delib/`、`devops/`、`finance/`、`media/`、`org/`、`share/`、`stdn/`、`strategy/`、`write/`、`business/`）全部腾空。
 
 ## v0.6.0
 
