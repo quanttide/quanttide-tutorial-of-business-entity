@@ -1,10 +1,11 @@
 # CHANGELOG
 
-## [Unreleased]
+## [0.7.1] - 2026-09-29
 
 ### Changed
 
 - `qtconsult/stages/clarify.md`：澄清（需求阶段）成篇——五步流程、分解三类与姜汁芬达一例（迁入自知识工作语境）
+- `qtconsult/stages/clarify.md`：润色——补主语与指代、统一「医疗器械」「WorkBuddy」写法、拆分案例长句
 - 量潮众包、量潮招聘两章迁出至工作手册（`quanttide-handbook-of-business-entity`）：`qtcrowd/`、`qtrecurit/` 共 3 篇，`myst.yml` 目录同步移除
 
 ## [0.7.0] - 2026-09-29
