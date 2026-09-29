@@ -97,14 +97,13 @@
 
 ### 留在公司教程
 
-共 21 篇，都是主体性的内容：
+共 20 篇，都是主体性的内容：
 
 | 文件 | 为什么留 |
 |:--|:--|
 | `index.md` | 教程入口、三层文档说明 |
 | `intro/index.md` | 新人快速入门 |
 | `appendix/definitions.md` | 本公司的定义 |
-| `org/company-representative.md` | 量潮科技公司代表职务说明书——通篇锚定《量潮科技公司代表章程》的具体条文（第二、四、十二、十四、十五条）与量潮的董事会申诉机制，换一家公司就不成立 |
 | `qtdata/`（9 篇） | 量潮数据业务线怎么跑 |
 | `qtclass/`（3 篇） | 量潮课堂业务线怎么跑 |
 | `qtcloud/`（1 篇） | 量潮云业务线怎么跑 |
@@ -119,10 +118,9 @@
 | 商务拓展 | `quanttide-tutorial-of-business-development` | `business/quotation.md` |
 | 议事管理 | `quanttide-tutorial-of-deliberation-management` | `delib/`（2 篇） |
 
-两处未定：
+一处未定：
 
 - **`connect/README.md`** 是 3 行占位，与 `connect/index.md` 重复，迁出时应直接删除而不是搬运
-- **`org/company-representative.md` 可再拆一层**：正文（条文解读、量潮的董事会与申诉机制）留在主体层，其中的「设计者注」讲的是通用方法论——怎么设计一个能真正制衡的职务（职权边界、义务命名、豁免的法律边界、救济与保险装置），这部分可拆出来迁往组织管理教程
 
 ### 迁出后的收口动作
 
@@ -140,7 +138,6 @@ default/company/          # 量潮科技工作教程——只讲"这家公司"
 ├── index.md
 ├── intro/                # 新人入门
 ├── appendix/             # 定义
-├── org/                  # 只剩 company-representative.md
 └── qtdata|qtclass|qtcloud|qtconsult|qtcrowd|qtrecurit/   # 业务线
 ```
 

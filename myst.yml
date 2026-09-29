@@ -53,7 +53,6 @@ project:
       children:
         - file: org/index.md
         - file: org/founder-dependency.md
-        - file: org/company-representative.md
         - file: org/mechanism-design.md
         - file: org/culture/index.md
         - file: org/culture/how.md
