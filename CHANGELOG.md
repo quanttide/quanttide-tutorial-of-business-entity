@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [Unreleased]
+
+### Changed
+
+- 量潮众包、量潮招聘两章迁出至工作手册（`quanttide-handbook-of-business-entity`）：`qtcrowd/`、`qtrecurit/` 共 3 篇，`myst.yml` 目录同步移除
+
 ## [0.7.0] - 2026-09-29
 
 ### Changed

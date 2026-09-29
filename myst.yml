@@ -42,13 +42,6 @@ project:
         - file: qtconsult/index.md
         - file: qtconsult/stages/index.md
         - file: qtconsult/stages/clarify.md
-    - title: 量潮众包
-      children:
-        - file: qtcrowd/index.md
-    - title: 量潮招聘
-      children:
-        - file: qtrecurit/index.md
-        - file: qtrecurit/workflow/survey.md
     - title: 附录
       children:
         - file: appendix/definitions.md
