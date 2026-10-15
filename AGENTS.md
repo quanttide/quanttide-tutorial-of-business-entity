@@ -12,8 +12,8 @@ TOC 目录按 **入门 → 业务 → 附录** 排序：
 
 ## 领域教程不在本仓库
 
-本仓库是**主体层**（`assets/quanttide-tutorial/default/company`），只放量潮科技自己的工作方法、口径与业务线操作。
+本仓库是**主体层**（`categories/quanttide-tutorial/default/company`），只放量潮科技自己的工作方法、口径与业务线操作。
 
 判断规则：**把文档里的"量潮"换成另一家公司，内容还成立吗？**成立 → 属于领域知识，写到 `quanttide-tutorial-of-*` 领域教程仓库去；不成立 → 才留在本仓库。
 
-通用方法一律不在这里重复，需要时指向对应领域教程。领域教程按学科聚合在 `assets/quanttide-tutorial`。
+通用方法一律不在这里重复，需要时指向对应领域教程。领域教程按学科聚合在 `categories/quanttide-tutorial`。

@@ -2,7 +2,7 @@
 
 ## 内容迁出：公司教程 → 领域教程（已完成）
 
-公司教程是**主体层**（`assets/quanttide-tutorial/default/company`），只讲"量潮科技这家公司怎么做"。领域知识——换个公司也成立的方法——已全部迁往对应领域教程仓库 `quanttide-tutorial-of-*`。
+公司教程是**主体层**（`categories/quanttide-tutorial/default/company`），只讲"量潮科技这家公司怎么做"。领域知识——换个公司也成立的方法——已全部迁往对应领域教程仓库 `quanttide-tutorial-of-*`。
 
 判断规则：**把文档里的"量潮"换成另一家公司，内容还成立吗？**成立 → 迁去领域教程；不成立 → 留在公司教程。
 
@@ -54,7 +54,7 @@
 - [x] 本仓库删除原文件，`myst.yml` 目录同步
 - [x] 本仓库 `index.md` 增「领域教程不在这里」指引段落
 - [x] `AGENTS.md` 写入判断规则，防止领域内容再回流
-- [x] 迁出后两处教程仓库的指针同步到 `assets/quanttide-tutorial`
+- [x] 迁出后两处教程仓库的指针同步到 `categories/quanttide-tutorial`
 
 ### 待办：迁入内容尚未去公司化
 
