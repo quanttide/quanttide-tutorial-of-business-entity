@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [Unreleased]
+
+### Added
+
+- `qtadmin/work.md`：从材料到产物——自由创作、提交团队、公开发布三个阶段（迁入自知识工作教程的 `intro/`，`myst.yml` 目录新增「量潮管理」一章）
+
 ## [0.7.2] - 2026-09-29
 
 ### Added

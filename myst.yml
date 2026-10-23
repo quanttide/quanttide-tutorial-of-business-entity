@@ -42,6 +42,9 @@ project:
         - file: qtconsult/index.md
         - file: qtconsult/stages/index.md
         - file: qtconsult/stages/clarify.md
+    - title: 量潮管理
+      children:
+        - file: qtadmin/work.md
     - title: 附录
       children:
         - file: appendix/definitions.md
